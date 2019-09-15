@@ -70,14 +70,14 @@ a:after {
 /* Header Wrap */
 .header {
   background: #1CBCAD;
-  background: url(../images/header-bg-3.jpg) no-repeat center top;
+  background: url(../images/header-bg.jpg) no-repeat center top;
   padding-top:140px;
   text-align:center;
   background-attachment: relative;
   background-position: center center;
   min-height: 500px;
   width: 100%;
-  
+    
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -93,6 +93,7 @@ a:after {
   font-size: 80px;
   color: white;
   background: rgba(0,0,0,0.2);
+  
 }
 
 .header h3 {
@@ -166,6 +167,12 @@ a:after {
   padding: 6px;
   color: white;
   background: #34495e;
+}
+
+.desc web {
+  padding: 6px;
+  color: white;
+  background: #12613c;
 }
 
 .desc more {
