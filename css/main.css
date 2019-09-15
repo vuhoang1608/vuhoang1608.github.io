@@ -68,6 +68,10 @@ a:after {
 ---------------------------------------------------*/
 
 /* Header Wrap */
+#header-icon{
+  size: 15pt;
+}
+
 .header {
   background: #1CBCAD;
   background: url(../images/header-bg.jpg) no-repeat center top;
@@ -169,16 +173,9 @@ a:after {
   background: #34495e;
 }
 
-.desc web {
-  padding: 6px;
-  color: white;
-  background: #12613c;
-}
-
 .desc more {
   color: #616669;
 }
-
 
 sm {
   font-size: 12px;
