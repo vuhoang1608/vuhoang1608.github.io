@@ -7,23 +7,23 @@
     <meta name="description" content="">
     <!-- OPTIONAL: author -->
     <meta name="author" content="">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="shortcut icon" class="active" href="favicon.ico">
+    <link rel="apple-touch-icon" class="active" href="icon.png" />
 
 		<!-- EDIT: title -->
     <title>Jonathan Tran's Resume</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link class="active" href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" class="active" href="css/font-awesome.min.css">
 
     <!-- Link the main.css stylesheet -->
-    <link href="css/main.css" rel="stylesheet">
+    <link class="active" href="css/main.css" rel="stylesheet">
     
     <!-- OPTIONAL: Google Fonts (don't forget to edit main.css also) -->
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link class="active" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" type='text/css'>
+    <link class="active" href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -34,22 +34,30 @@
   </head>
 
   <body>
-	
+	<nav>
+		<ul>
+			<li><a href="#header">Home</a></li>
+			<li><a href="#about">About</a></li> 
+			<li><a href="#experiences">Experiences</a></li> 
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#contact">Contact</a></li> 
+		</ul>
+	</nav>
 	<div id="header" class="header">
-		<div class="container">
+		<div class="container">				
 			<div class="row centered">
 				<div class="col-lg-12">
 					<!-- EDIT: name -->
 					<h1>Jonathan Tran</h1>
 					<!-- EDIT: title | email -->
-					<h3>Software Engineer Student | <a href="mailto:hoangt5@uci.edu" target="_blank">hoangt5@uci.edu</a></h3>
+					<h3>Software Engineer Student | <a class="active" href="mailto:hoangt5@uci.edu" target="_blank">hoangt5@uci.edu</a></h3>
 					<h3>
-						<a id="header-icon" href="https://github.com/vuhoang1608/Projects" target="_blank"><i class="icon-github"></i></a>
-						<a id="header-icon" href="https://www.linkedin.com/in/jonathan-tran-a50a808b/" target="_blank"><i class="icon-linkedin"></i></a>
+						<a id="header-icon" class="active" href="https://github.com/vuhoang1608/Projects" target="_blank"><i class="icon-github"></i></a>
+						<a id="header-icon" class="active" href="https://www.linkedin.com/in/jonathan-tran-a50a808b/" target="_blank"><i class="icon-linkedin"></i></a>
 					</h3>
 				</div><!--/.col-lg-12 -->
 			</div><!--/.row -->
-		</div><!--/.container -->
+		</div><!--/.container -->		
 	</div><!--/.header -->
 	
 
@@ -75,7 +83,7 @@
 				</div>				
 				<div class="col-lg-3">
 					<!-- EDIT: download link -->
-					<p><a href="Resume-Tran,Jonathan.pdf" target="_blank"><i class="icon-file"></i> <sm>MY RESUME</sm></a></p>
+					<p><a class="active" href="Resume-Tran,Jonathan.pdf" target="_blank"><i class="icon-file"></i> <sm>MY RESUME</sm></a></p>
 				</div>
 				
 				
@@ -100,7 +108,7 @@
 					</p>
 				</div>
 				<div class="col-lg-3">
-					<p><sm>Sep 2019 - Jun 2020 (expected)<br/>
+					<p><sm>Sep 2018 - Jun 2020 (expected)<br/>
 						Irvine, CA</sm></br>
 					<imp><sm>IN PROGRESS</sm></imp>
 					</p>
@@ -125,6 +133,7 @@
 	</div><!--/.container -->
 	
 	<!-- WORK SECTION -->
+	<section id="experiences" name="experiences"></section>
 	<div class="container desc">
 		<div class="row">
 
@@ -149,7 +158,7 @@
 				<div class="col-lg-3">
 					<p><sm>Jan 2019 - Present <br />
 					Fountain Valley, CA</sm><br/>
-					<sm><imp><a href="https://www.ocsd.com/" target="_blank">View Company's website</a></imp></sm>
+					<sm><imp><a class="active" href="https://www.ocsd.com/" target="_blank">View Company's website</a></imp></sm>
 				</p>
 					
 				</div>
@@ -179,7 +188,8 @@
 	</div><!--/.container -->
 
 
-	<!-- AWARDS SECTION -->
+	<!-- PROJECTS SECTION -->
+	<section id="projects" name="projects"></section>
 	<div class="container desc">
 		<div class="row">
 				<div class="col-lg-2 col-lg-offset-1">
@@ -213,7 +223,7 @@
 				</div>
 				<div class="col-lg-3">
 					<p><sm>December 2017</sm><br/>
-					<sm><imp><a href="https://github.com/vuhoang1608/Projects/tree/master/FriendlyCarWashers-master" target="_blank">View on GitHub</a></imp></sm>				
+					<sm><imp><a class="active" href="https://github.com/vuhoang1608/Projects/tree/master/FriendlyCarWashers-master" target="_blank">View on GitHub</a></imp></sm>				
 					</p>
 				</div>
 		
@@ -234,24 +244,26 @@
 				<!-- EDIT: email -->
 				<div class="col-lg-6">
 					<p><t>Email</t><br/>
-						<a href="mailto:hoangt5@uci.edu" target="_blank" class="mail">hoangt5@uci.edu</a> <br/>
+						<a class="active" href="mailto:hoangt5@uci.edu" target="_blank" class="mail">hoangt5@uci.edu</a> <br/>
 					</p>
 					<!-- EDIT: address -->
 					<p><t>Address</t><br/>
-						Westminster, CA<br/>
+						Westminster, CA
+						<a class="active" href="https://goo.gl/maps/foCZ6vsxxuA1FSEM8" target="_blank"> (Map)</i></a>
+						<br/>
 					</p>
 					<!-- EDIT: phone number -->
 					<p><t>Phone</t><br/>
-						<a href="tel:7147977789" class="tel">(714) 797-7789</a> <br/>
+						<a class="active" href="tel:7147977789" class="tel">(714) 797-7789</a> <br/>
 					</p>
 				</div>
 				<div class="col-lg-3">
 					<p><sm>SOCIAL LINKS</sm></p>
 					<p>
 						<!-- EDIT: Social Links. Replace # with your URL for each -->						
-						<a href="https://github.com/vuhoang1608/Projects" target="_blank"><i class="icon-github"></i></a>
-						<a href="https://www.linkedin.com/in/jonathan-tran-a50a808b/" target="_blank"><i class="icon-linkedin"></i></a>
-						<!--<a href="#" target="_blank"><i class="icon-github"></i></a>-->
+						<a class="active" href="https://github.com/vuhoang1608/Projects" target="_blank"><i class="icon-github"></i></a>
+						<a class="active" href="https://www.linkedin.com/in/jonathan-tran-a50a808b/" target="_blank"><i class="icon-linkedin"></i></a>
+						<!--<a class="active" href="#" target="_blank"><i class="icon-github"></i></a>-->
 					</p>
 				</div>
 			</div><!--/.row -->
