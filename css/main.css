@@ -170,8 +170,7 @@ a:after {
 /*Styling the nav bar*/
 nav ul {
   position: fixed;
-  top: 0;
-  
+  top: 0;  
   list-style-type: none;
   margin: 0;
   padding: 0;
