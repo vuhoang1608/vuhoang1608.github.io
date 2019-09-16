@@ -168,15 +168,16 @@ a:after {
   font-weight: 700;
 }
 /*Styling the nav bar*/
-nav ul {
-  position: fixed;
-  top: 0;  
+nav ul {  
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  width: 120px;
+  padding: 0;  
   background-color: #8f8d8d;
   opacity: 0.7;
+  display: inline;
+}
+nav li{
+  float: right;
 }
 
 nav li a {
