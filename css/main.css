@@ -24,7 +24,7 @@ p {
 }
 
 .centered {
-    text-align: center;
+    text-align: left;
 }
 
 /* Links */
@@ -69,10 +69,6 @@ a:after {
 ---------------------------------------------------*/
 
 /* Header Wrap */
-#header-icon{
-  size: 15pt;  
-}
-
 .header {
   background: #1CBCAD;
   background: url(../images/header-bg.jpg) no-repeat center top;
@@ -94,16 +90,35 @@ a:after {
   background-size: cover;
 }
 
+img{
+  border-radius: 8px;
+  max-width: 100%;  
+  width: 250px;
+  height: 312px;
+  position: absolute;
+  left: 80px;
+  top:  5px;  
+}
+
 .header h1 {
   font-size: 80px;
   color: white;
-  background: rgba(0,0,0,0.2);
-  
+  /*background: rgba(0,0,0,0.2);*/
+  position: absolute;
+  right:8px;
+  top: 8px;
+  width: 600px;
+  min-width: 20%;  
 }
 
 .header h3 {
   font-size: 20px;
   color: white;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  width: 600px;
+  min-width: 20%;
 }
 
 .header h3 a {
