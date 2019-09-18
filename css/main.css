@@ -105,6 +105,10 @@ a:after {
   color: #fff;
 }
 
+#header-icon i{
+  font-size: 3rem;
+}
+
 /* About Wrap */
 .about {
   background: #2c3e50;
@@ -144,6 +148,7 @@ a:after {
 
 /* social icons: */
 .footer i {
+  font-size: 3rem;
   padding-right: 8px;
   /*color: #1abc9c;*/
 }
