@@ -1,271 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
-    <!-- OPTIONAL: description -->
-    <meta name="description" content="">
-    <!-- OPTIONAL: author -->
-	<meta name="author" content="">
-	<link rel="icon" size="114x114" type="image/x-icon" href="images/weblogo.png" />
-    <link rel="shortcut icon" class="active" href="favicon.ico">
-	<link rel="apple-touch-icon" class="active" href="icon.png" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-		<!-- EDIT: title -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <title>Jonathan Tran</title>
+    <link rel="icon" size="114x114" type="image/x-icon" href="images/weblogo.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Education</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Jonathan Tran</h1>
+            <h6>Software Engineer Student</h6>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300"> <!--adding animation data-aos-->
+                <img src="images/HOANG-TRAN-3_Cropped.jpeg"alt="">                
+            </div>
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>
+                    A Senior Software Engineering student at University of California, Irvine who is passionate about developing software that solves real-world problems.
+                    <br/>My coding experience includes the following languages: C++, Java, Python. I recently gained interest in Web Development and started to build my online portfolio in HTML, CSS, and Javascript.
+                </p>
+                <div class="social-media">
+                        <ul class="nav-list">
+                            <li>
+                                <a href="https://github.com/vuhoang1608/Projects" class="icon-link" target="_blank" title="Github"><i class="fab fa-github-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/jonathan-tran-a50a808b/" class="icon-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="mailto:hoangt5@uci.edu" class="icon-link" target="_blank" title="Email me"><i class="fas fa-envelope-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://vuhoang1608.github.io/Resume%20-%20Tran,%20Jonathan.pdf" class="icon-link" target="_blank" title="My Resume"><i class="fa fa-file"></i></a>
+                            </li>
+                        </ul>                        
+                    </div>
+                </div>                
+        </div>
+    </section>
 
-    <!-- Bootstrap core CSS -->
-    <link class="active" href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" class="active" href="css/font-awesome.min.css">
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Education</h1>
+                </div>
+            <div class="my-skills">
+                <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                    <div class="school-logo1">
+                        <a href="https://uci.edu/" target="_blank" title="UCI's website"><img src="images/UCI-Logo2.png"></a>
+                    </div>
+                    <h1>B.S. Software Engineering</h1>
+                    <p>
+                        September 2018 - June 2020 (expected)<br/>
+                        GPA: 3.84
+                    </p>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                    <div class="school-logo2">
+                        <a href="http://www.orangecoastcollege.edu/Pages/home.aspx" target="_blank" title="OCC's website"><img id="OCC" src="images/OCC-Logo.png"></a>
+                    </div>
+                    <h1>A.S. Computer Science</h1>
+                    <p>May 2015 - May 2018<br/>
+                        GPA: 3.82
+                    </p>
+                </div>                
+            </div>
+        </div>
+    </section>
 
-    <!-- Link the main.css stylesheet -->
-    <link class="active" href="css/main.css" rel="stylesheet">
-    
-    <!-- OPTIONAL: Google Fonts (don't forget to edit main.css also) -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                    <img src="images/portitem1.jpeg" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                    <h1>Search Engine Optimization</h1>
+                    <h6>September 2018 - December 2018</h6>
+                    <p>
+                        • Develope a search engine that fetches data from UCI ICS website using inverted indexing technique and
+                        return relevant results based on searching keywords.<br/>
+                        • Store and retrieve data from MongoDB.<br/>
+                        • Optimize search engine using stemming, lemmatization, cosine similarity and other relevant techniques.
+                    </p>
+                    <a href="https://github.com/vuhoang1608/Projects/tree/master/Search%20Engine%20Optimization" class="cta" target="_blank">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item" >
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                    <h1>Friendly Car Washers</h1>
+                    <h6>September 2017 - December 2017</h6>
+                    <p>
+                            • Develop a user-friendly program for Windows named "Friendly Car Washers".<br/>
+                            • Implement Agile method to develop project, user Trello to keep track of progress.<br/>
+                            • Create a GUI in Java by using SceneBuilder.<br/>
+                            • The program will find the cheapest car wash location in a specific city. Users are able to sort all car washes in
+                            specific area by price, name, rating; Users can also write review and view all car wash coupons. 
+                    </p>
+                    <a href="https://github.com/vuhoang1608/Projects/tree/master/FriendlyCarWashers-master" class="cta" target="_blank">View Details</a>
+                </div>
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                    <img src="images/project2.png" alt="">
+                </div>
+            </div>
+            
+        </div> 
+    </section>
+<section class="experience" id="experience">
+    <div class="container">
+        <div class="section-heading">
+            <h1>Work Experience</h1>
+            <h6>Pass and Current jobs</h6>
+        </div>
+        <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+            <ul>
+                <li class="date" data-date="Jan 2019 - Present">
+                    <h1>Orange County Sanitation District</h1>
+                    <p>
+                        Information Technology Intern - IT Department<br/>
+                        <!--(See job description on <a id="resume" href="https://vuhoang1608.github.io/Resume%20-%20Tran,%20Jonathan.pdf" target="_blank">My Resume</a>)-->
+                    </p>
+                                                            
+                </li>
+                <li class="date" data-date="May 2015 - May 2017">
+                    <h1>Branan Medical Corporation</h1>
+                    <p>Production Supervisor - Manufactoring Department</p>
+                </li>                
+            </ul>
+        </div>
+    </div>
+</section>
 
-    <link class="active" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" type='text/css'>
-    <link class="active" href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-	<nav>
-		<ul>			
-			<li><a href="#contact">Contact</a></li>
-			<li><a href="#projects">Projects</a></li>
-			<li><a href="#experiences">Experiences</a></li>	
-			<li><a href="#about">About</a></li> 
-			<li><a href="#header">Home</a></li> 
-		</ul>
-	</nav>	
-	<div id="header" class="header">
-		<div class="container">				
-			<div class="row centered">
-				<div class="col-lg-12">					
-					<!-- EDIT: name -->
-					<h1>Jonathan Tran</h1>
-					<!-- EDIT: title | email -->
-					<h3>Software Engineering Student
-						<br/><br/>
-						<a class="active" href="https://github.com/vuhoang1608/Projects" target="_blank"><i class="icon-github"></i></a>
-						<a class="active" href="https://www.linkedin.com/in/jonathan-tran-a50a808b/" target="_blank"> <i class="icon-linkedin"></i></a>
-						<a class="active" href="mailto:hoangt5@uci.edu" target="_blank"> <i class="fa fa-fw fa-envelope"></i></a>
-					</h3>
-					
-				</div><!--/.col-lg-12 -->
-			</div><!--/.row -->
-		</div><!--/.container -->		
-	</div><!--/.header -->
-	
-
-	<section id="about" name="about"></section>
-	<div class="about">
-		<div class="container">
-			<div class="row">				
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>ABOUT</h5><br/><br/>					
-				</div>				
-				<div class="col-lg-6">
-					<!-- EDIT: about -->
-					<p>A Senior Software Engineering student at University of California, Irvine who is passionate about developing software that solves real-world problems.</p>
-				</div>										
-				<div class="col-lg-3">
-					<!-- EDIT: download link -->
-					<p><a class="active" href="Resume - Tran, Jonathan.pdf" target="_blank"><i class="icon-file"></i> <sm>MY RESUME</sm></a></p>
-				</div>
-				
-				
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #intro -->
-
-
-	<section id="resume" name="resume"></section>
-	<!-- EDUCATION SECTION -->
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>EDUCATION</h5>
-				</div>
-				<!-- EDIT: education line 1 -->
-				<div class="col-lg-6">
-					<p><t>University of California, Irvine</t><br/>
-						<em>B.S. Software Engineer, GPA: 3.84</em>
-						<!--<br/><i>Extra info here</i>-->
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>Sep 2018 - Jun 2020 (expected)<br/>
-						Irvine, CA</sm></br>
-					<imp><sm>IN PROGRESS</sm></imp>
-					</p>
-				</div>
-	
-				<!-- EDIT: education line 2 -->
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Orange Coast College</t><br/>
-						 <em>A.S. Computer Science</em>
-						<!--<br/><i>Extra info here</i>-->
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>Aug 2015 - May 2018<br/>
-						Costa Mesa, CA</sm>
-					</p>
-				</div>
-	
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-	
-	<!-- WORK SECTION -->
-	<section id="experiences" name="experiences"></section>
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>WORK EXPERIENCE</h5>
-				</div>
-				<!-- EDIT: work line 1 -->
-				<div class="col-lg-6">
-					<p class="tight"><t>ORANGE COUNTY SANITATION DISTRICT</t><br/>
-						<em>Information Technology Intern | IT Department</em><br/>	
-					</p>
-					<!-- <p><more>
-						<ul>
-							<li>Assist with migration from SharePoint 2013 to SharePoint Online using ShareGate.</li>
-							<li>Rewrite a task planner for internal project which was written in C# with PowerShell and add more functions that benefits in project scalability and flexibility.</li>
-							<li>Write PowerShell script to search for SQL files (Stored Procedures, Views, Triggers) on Outlook Shared Mailbox, network drives and move all files in one place. Upload them into Team Foundation Server (TFS). The script performs 70% faster and more accurate than manual process.</li>
-							<li>Release Microsoft Planner to end-users including creating training documents, requesting for change, testing, training end-users, and following up for users’ feedbacks.</li>
-							<li>Provide technical support for end users including PC hardware components, desktop operating software and application software. Monitor and respond to Service Desk support request.</li>
-						</ul>
-					</more></p> -->
-				</div>
-				<div class="col-lg-3">
-					<p><sm>Jan 2019 - Present <br />
-					Fountain Valley, CA</sm><br/>
-					<sm><imp><a class="active" href="https://www.ocsd.com/" target="_blank">View Company's website</a></imp></sm>
-				</p>
-					
-				</div>
-				
-				<!-- EDIT: work line 2-->
-				<div class="col-lg-6 col-lg-offset-3">
-					<p class="tight"><t>BRANAN MEDICAL CORPORATION</t><br/>
-						<em>Production Supervisor | Manufactoring Department</em><br/>
-					</p>
-					<!-- <p><more>
-						<ul>
-							<li>Assist management team in organizing and planning for production, manpower, raw material and any other items necessary.</li>
-							<li>Track inventory of finished kits and all raw materials, chemicals and all other pertinent supplies for production and daily operation.</li>
-							<li>Supervise the junior staff members; train and teach where necessary.</li>
-							<li>Coordinate with other departments, (QC/QA, Assembly, R&D, Conjugate) to provide efficient manufacturing processes.</li>
-							<li>Work with organization’s goals for products, services and related services to provide customer satisfaction and ensure the effectiveness of the Quality Management System (QMS).</li>
-						</ul>
-					</more></p> -->
-				</div>
-				<div class="col-lg-3">
-					<p><sm>May 2015 - May 2017 <br />
-					Irvine, CA</sm></p>
-				</div>
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-
-	<!-- PROJECTS SECTION -->
-	<section id="projects" name="projects"></section>
-	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>MY PROJECTS:</h5>
-				</div>
-
-				<!-- EDIT: awards line 1-->
-				<div class="col-lg-6">
-					<p><t>Search Engine Optimization (SEO)</t>
-					<ul>
-						<li>Develope a search engine that fetches data from UCI ICS website using inverted indexing technique and return relevant results based on searching keywords.</li>
-						<li>Store and retrieve data from MongoDB.</li>
-						<li>Optimize search engine using stemming, lemmatization, cosine similarity and other relevant techniques.</li>
-					</ul>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>DECEMBER 2018</sm><br/>
-						<sm><imp><a class="active" href="https://github.com/vuhoang1608/Projects/tree/master/Search%20Engine%20Optimization" target="_blank">View on GitHub</a></imp></sm>											
-					</p>
-				</div>
-	
-				<!-- EDIT: awards line 2-->
-				<div class="col-lg-6 col-lg-offset-3">
-					<p class="tight"><t>Friendly Car Washers</t>
-						</p>
-					<p>
-						<ul>
-							<li>Develope a user-friendly program for Windows named "Friendly Car Washers".</li>
-							<li>Implement Agile method to develop the project, user Trello to keep track of the progress.</li>
-							<li>Create a GUI in Java by using SceneBuilder. </li>
-							<li>The program will find the cheapest car wash location in a specific city. Users are able to sort all car washes in specific area by price, name, rating; Users can also write review and view all car wash coupons.</li>
-						</ul>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>December 2017</sm><br/>
-					<sm><imp><a class="active" href="https://github.com/vuhoang1608/Projects/tree/master/FriendlyCarWashers-master" target="_blank">View on GitHub</a></imp></sm>				
-					</p>
-				</div>
-		
-		</div><!--/.row -->
-		<br>
-	</div><!--/.container -->
-	
-
-	<section id="contact" name="contact"></section>
-	<!--FOOTER DESCRIPTION -->
-	<div id="footwrap" class="footer">
-		<div class="container">
-			<div class="row">
-			
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>CONTACT</h5>
-				</div>
-				<!-- EDIT: email -->
-				<div class="col-lg-6">
-					<p><t>Email</t><br/>
-						<a class="active" href="mailto:hoangt5@uci.edu" target="_blank" class="mail">hoangt5@uci.edu</a> <br/>
-					</p>
-					<!-- EDIT: address -->
-					<p><t>Address</t><br/>
-						Westminster, CA
-						<a class="active" href="https://goo.gl/maps/foCZ6vsxxuA1FSEM8" target="_blank"> (Map)</i></a>
-						<br/>
-					</p>
-					<!-- EDIT: phone number -->
-					<p><t>Phone</t><br/>
-						<a class="active" href="tel:7147977789" class="tel">(714) 797-7789</a> <br/>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>SOCIAL LINKS</sm></p>
-					<p>
-						<!-- EDIT: Social Links. Replace # with your URL for each -->						
-						<a class="active" href="https://github.com/vuhoang1608/Projects" target="_blank"><i class="icon-github"></i></a>
-						<a class="active" href="https://www.linkedin.com/in/jonathan-tran-a50a808b/" target="_blank"><i class="icon-linkedin"></i></a>
-						<a class="active" href="mailto:hoangt5@uci.edu" target="_blank"> <i class="fa fa-fw fa-envelope"></i></a>
-					</p>
-				</div>
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #footer -->
-  </body>
+<section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's work together</h6>
+            </div>
+            <div class="contact-info">
+                <div class="adress" data-aos="fade-up" data-aos-delay="200">
+                    <h1>Address:</h1>
+                    <p>Westminster, CA <br/> 
+                        <a href="https://goo.gl/maps/foCZ6vsxxuA1FSEM8" target="_blank">(Map)</a>
+                    </p>
+                </div>
+                <div class="phone" data-aos="fade-up" data-aos-delay="200">
+                    <h1>Phone:</h1>
+                    <p>
+                        <a href="tel:7147977789" class="active">(714) 797-7789</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+</section>
+<footer class="copyright">
+    <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>        
+    </div>
+    <p>&copy; 2019 Jonathan Tran</p>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
 </html>
