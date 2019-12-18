@@ -14,7 +14,7 @@ html{
 header {
     background-image: url("images/headbackground.JPG");
     background-position: top left;
-    
+    background-size: 1987px 1200px ;
     max-width: auto;
     max-height: auto;
 }
