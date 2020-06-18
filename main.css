@@ -11,12 +11,20 @@ html{
     font-family: "Roboto" , sans-serif;
     color: #eee;
 }
+header {
+    background-image: url("images/headbackground.JPG");
+    background-position: top left;
+    background-size: 1987px 1200px ;
+    max-width: auto;
+    max-height: auto;
+}
 
 body{
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7) ;
     background-size: cover;
+   
 }
 
 section{
